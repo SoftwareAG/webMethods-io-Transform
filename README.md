@@ -32,5 +32,25 @@ In webmethod.io there are manny transform available for use wrt different data t
 10. Now `Run the WorkFlow`. In the logger you will see the result of the transform. Here you can see the length of the string.
 ![image](https://user-images.githubusercontent.com/60179170/89013245-2ec8ef00-d331-11ea-8127-9d8b7a4ad499.png)
 
+## Using webhook to pass the data.
+1. Open the logger and hover over the transform name. You will goin to see a `edit icon` there Click on that icon.
+![image](https://user-images.githubusercontent.com/60179170/89014430-1fe33c00-d333-11ea-9f34-f66e00ee1e4c.png)
+2. Now from the Action Configure window cheack what are the input the transform need and its datatypes. Here the transform only need one input and data type is string.
+![image](https://user-images.githubusercontent.com/60179170/89014614-62a51400-d333-11ea-8b4e-d40906093bfb.png)
+3. Configure a JSON object wrt the input. <br/>
+if the inputs are a string and a array, configure the JSON as <br/>
+{"data1":"string","data2":[1,2,3,4]}<br/>
+Here the tranfrom need only one input we will configure the JSON as <br/>
+{"data1":"Anshuman Saikia"}
+4. Now `double click` on the start .
+![image](https://user-images.githubusercontent.com/60179170/88809305-9700bf00-d1d1-11ea-91a2-235dfaf46578.png).
+5. From the list click on webhook.<br/>
+![image](https://user-images.githubusercontent.com/60179170/89008115-b447a180-d327-11ea-8fbe-e0c48f8f8a92.png)
+6. Click `Next`.<br/>
+![image](https://user-images.githubusercontent.com/60179170/88910377-05995780-d27a-11ea-99cc-b472dac0f0ef.png)
+7. From the next window coppy the link.
+![image](https://user-images.githubusercontent.com/60179170/89015385-93d21400-d334-11ea-9b1f-1b30cac54687.png)
+8. Now open the Postman and paste the link. And also paste the configured JSON data in the body. <b> keep the body type as `raw` and formate as `JSON` </b>
+
 
 For more details please [click here](https://docs.webmethods.io/integration/additional_features/data_transformation/#gsc.tab=0).
