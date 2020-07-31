@@ -12,12 +12,12 @@ In webmethod.io there are manny transform available for use wrt different data t
 
 ## Creating a workflow with transform
 1. Log in to your webmethod.io account then go to `webMethods.io Integration`.
-2. Create a new workflow under a `Project`.
+2. Create a new workflow under a `Project`.<br/>
 ![image](https://user-images.githubusercontent.com/60179170/89011752-887bea00-d32e-11ea-83a2-7c6d9196702b.png)<br/>
-![image](https://user-images.githubusercontent.com/60179170/89011807-aba69980-d32e-11ea-8f69-557fc494085c.png)
-3. Go to the search pannel on the `connector list` and search `Logger`.
+![image](https://user-images.githubusercontent.com/60179170/89011807-aba69980-d32e-11ea-8f69-557fc494085c.png)<br/>
+3. Go to the search pannel on the `connector list` and search `Logger`.<br/>
 ![image](https://user-images.githubusercontent.com/60179170/89011920-e3154600-d32e-11ea-8d97-f9f839270b7e.png)
-4. Now put this logger in your work flow.
+4. Now put this logger in your work flow.<br/>
 ![image](https://user-images.githubusercontent.com/60179170/89012007-07712280-d32f-11ea-9ce8-a8431d98ccec.png)
 5. Now `Double Click` on the Logger and click `Next`. On the next window you will get a option `Transform` Click on that.
 ![image](https://user-images.githubusercontent.com/60179170/89012186-5b7c0700-d32f-11ea-9ba7-37cd3a1c6158.png)
