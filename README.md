@@ -51,6 +51,28 @@ Here the tranfrom need only one input we will configure the JSON as <br/>
 7. From the next window coppy the link.
 ![image](https://user-images.githubusercontent.com/60179170/89015385-93d21400-d334-11ea-9b1f-1b30cac54687.png)
 8. Now open the Postman and paste the link. And also paste the configured JSON data in the body. <b> keep the body type as `raw` and formate as `JSON` </b>
+Click on `Send`.
+![image](https://user-images.githubusercontent.com/60179170/89015717-21156880-d335-11ea-9fd9-9f2498a4ec6d.png)
+9. Go to your browser and click on `Fetch` on your webhook. After data has been fetch successfully click on `Next`.
+![image](https://user-images.githubusercontent.com/60179170/89016124-cd574f00-d335-11ea-8699-6a6f7adcb6be.png)
+10. Select and on the Auto Connect return data option and click `Next`. and `Done`.
+![image](https://user-images.githubusercontent.com/60179170/89016300-1f987000-d336-11ea-9615-34f804fd620c.png)
+11. Now Connect the webhook with the logger and then logger to Return data on Synch and then to Stop.
+![image](https://user-images.githubusercontent.com/60179170/89016432-5c646700-d336-11ea-9f2f-fa3fde42d92f.png)
+12. Open the `Logger` And go to the `Transform Configure ` window.
+![image](https://user-images.githubusercontent.com/60179170/89016544-83229d80-d336-11ea-8c3b-f49eee4e7d54.png)
+13. Expand the webhook and map the data to the transfrom input fields. <b> Erase the previous data from the input fields.</b>. Click `Done` and `Next`.
+![image](https://user-images.githubusercontent.com/60179170/89016708-cbda5680-d336-11ea-8102-52ad46fb908c.png)
+14. Now click on `Test` and `Done`. 
+![image](https://user-images.githubusercontent.com/60179170/89017258-a4d05480-d337-11ea-917c-7ff5d8d31deb.png)
+15. Now `double click` on  `return data on sync webhook ` connector and map the logger output data to `response data`. Click `Next`. 
+![image](https://user-images.githubusercontent.com/60179170/89016785-ef050600-d336-11ea-8587-3a9d9a2792ce.png)
+16. 14. Now click on `Test` and `Done`. 
+![image](https://user-images.githubusercontent.com/60179170/89017355-d0533f00-d337-11ea-865d-490610b9f6a0.png)
+17. Now hover over the weebhook and click on settings icon and coppy the link.
+![image](https://user-images.githubusercontent.com/60179170/89017520-0b557280-d338-11ea-93ca-a507d1d4c155.png)
+18. Go to the postman and replace this link with the previous one. `Send` we will going to get the output as response.
+
 
 
 For more details please [click here](https://docs.webmethods.io/integration/additional_features/data_transformation/#gsc.tab=0).
