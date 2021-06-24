@@ -1,4 +1,4 @@
-# Webmethod.io-Transform
+# webMethods.io-Transform
 ## Getting Started
 The transform feature lets you perform various operations on the input data in order to help you customize your workflow output or the data you send to the next action. This feature is available in all actions supported by webMethods.io Integration. <br/>
 In webmethod.io there are manny transform available for use wrt different data type. <b>Please click on the hyper links to get more details about each data type's Transform. </b>
